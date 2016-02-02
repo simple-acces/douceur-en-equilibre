@@ -1,12 +1,29 @@
 <html>
 <head>
 	<title>instagram</title>
+	<style type="text/css">
+		body {
+			margin: 0 8px 8px 0;
+		}
+	</style>
 </head>
 <body>
 	<script type="text/javascript">
+		var previous_width
 		var parse_instagram_response = function(resp) {
 			document.write(resp.html)
+			resize()
 		}
+
+		var resize = function() {
+			var current_width = document.body.offsetWidth
+			if (previous_width !== current_width) {
+				window.top.document.getElementsByTagName('iframe')[0].style.height = (document.body.offsetHeight + 20) + 'px'
+				previous_width = current_width
+			}
+		}
+
+		window.addEventListener('resize', resize)
 	</script>
 	<script type="text/javascript" src="https://api.instagram.com/oembed/?url=https://www.instagram.com/p/BBQO7DPSOg4/&callback=parse_instagram_response"></script>
 </body>

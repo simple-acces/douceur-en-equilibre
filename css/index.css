@@ -42,3 +42,8 @@ article .button:hover {
     display: block;
     margin-top: 10px;
 }
+
+.four.wide.column iframe {
+	width: 100%;
+	border: none;
+}
