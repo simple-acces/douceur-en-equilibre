@@ -1,0 +1,13 @@
+<html>
+<head>
+	<title>instagram</title>
+</head>
+<body>
+	<script type="text/javascript">
+		var parse_instagram_response = function(resp) {
+			document.write(resp.html)
+		}
+	</script>
+	<script type="text/javascript" src="https://api.instagram.com/oembed/?url=https://www.instagram.com/p/BBQO7DPSOg4/&callback=parse_instagram_response"></script>
+</body>
+</html>
