@@ -3,8 +3,7 @@ $(document).ready(function() {
 	// clone menu for fixed purpose
 	if (window.screen.width >= 740) {
 		var menu = $('.menu')
-		var menu_fixed = menu.clone().addClass('fixed').css('display', 'none')
-		menu.parent().append(menu_fixed)
+		var menu_fixed = $('.menu.fixed').css('display', 'none')
 
 	    $(window).scroll(function() {
 			if ($(window).scrollTop() >= menu.offset().top + menu.height() && menu_fixed.css('display') === 'none') {
@@ -15,6 +14,10 @@ $(document).ready(function() {
 		})
 	}
 
+	$('article .button').click(function() {
+		$(this).parents('article').find('p.more').slideToggle()
+	})
+	$('p.more').slideUp(0)
 })
 
 

@@ -21,7 +21,7 @@ article .button {
 	background-color: rgb(230,230,230);
 	height: 30px;
 	padding-top: 4px;
-	margin-top: 10px;
+	margin: 10px 0 10px 0;
 	cursor: pointer;
 }
 

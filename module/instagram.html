@@ -18,7 +18,7 @@
 		var resize = function() {
 			var current_width = document.body.offsetWidth
 			if (previous_width !== current_width) {
-				window.top.document.getElementsByTagName('iframe')[0].style.height = (document.body.offsetHeight + 20) + 'px'
+				window.parent.document.getElementsByTagName('iframe')[0].style.height = (document.body.offsetHeight + 20) + 'px'
 				previous_width = current_width
 			}
 		}
