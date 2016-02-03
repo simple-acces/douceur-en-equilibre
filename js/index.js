@@ -15,9 +15,9 @@ $(document).ready(function() {
 	}
 
 	$('article .button').click(function() {
-		$(this).parents('article').find('p.more').slideToggle()
+		$(this).parents('article').find('div.more').slideToggle()
 	})
-	$('p.more').slideUp(0)
+	$('div.more').slideUp(0)
 })
 
 

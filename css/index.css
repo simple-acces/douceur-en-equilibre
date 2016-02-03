@@ -16,6 +16,10 @@ article img {
 	width: 100%;
 }
 
+article ul {
+	list-style-type: none;
+}
+
 article .button {
 	text-align: center;
 	background-color: rgb(230,230,230);
