@@ -1,36 +1,36 @@
-h1, h2, span, p, a, li {
+.container h1, h2, span, p, a, li {
 	font-family: 'Open Sans', sans-serif;
 }
 
-ul span.list {
+.container ul span.list {
 	font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
 	margin-right: 5px;
 }
 
-a {
+.container a {
 	color: #BDBDBD;
 	text-decoration: underline;
 }
 
-a:hover {
+.container a:hover {
 	color: black;
 	text-decoration: underline;
 }
 
-.intro {
+.container .intro {
 	padding-top: 100px !important;
 }
 
-.intro i {
+.container .intro i {
 	float: right;
 	color: #BDBDBD;
 }
 
-.intro a {
+.container .intro a {
 	font-size: small;
 }
 
-.header {
+.container .header {
 	height: 390px;
 	background-image: url(../img/image_header.jpg);
 	background-size: cover;
@@ -38,7 +38,7 @@ a:hover {
 	box-shadow: inset 10px 10px 76px rgba(0,0,0,.3);
 }
 
-.header img {
+.container .header img {
 	width: 200px;
 	position: absolute;
 	left: 50%;
@@ -46,23 +46,23 @@ a:hover {
 	top: -30%;
 }
 
-.menu .ui.basic.button {
+.container .menu .ui.basic.button {
 	box-shadow: none;
 }
 
-.menu .ui.basic.button:hover {
+.container .menu .ui.basic.button:hover {
 	box-shadow: none;
 }
 
-.menu .column:hover, .menu .column.current {
+.container .menu .column:hover, .menu .column.current {
 	border-bottom: 3px solid black;
 }
 
-.menu .column:hover button, .menu .column.current button{
+.container .menu .column:hover button, .menu .column.current button{
 	color: black !important;
 }
 
-.menu.fixed {
+.container .menu.fixed {
 	position: fixed !important;
 	background-color: white;
 	top: 0px;
