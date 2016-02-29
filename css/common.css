@@ -71,4 +71,14 @@
 	padding: 1rem 0 0 0 !important;
 }
 
+article .tags {
+	float: right;
+	margin-top: 3%;
+}
+
+article .tags img {
+	width: auto;
+	display: block;
+}
+
 
