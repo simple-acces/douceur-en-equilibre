@@ -20,7 +20,7 @@ article ul {
 	list-style-type: none;
 }
 
-article .button {
+article .right.floated .button {
 	text-align: center;
 	background-color: rgb(230,230,230);
 	height: 30px;
