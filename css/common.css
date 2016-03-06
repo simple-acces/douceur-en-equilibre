@@ -30,7 +30,7 @@
 	font-size: small;
 }
 
-.container .header {
+.container .column.header {
 	height: 390px;
 	background-image: url(../img/image_header.jpg);
 	background-size: cover;
@@ -38,7 +38,7 @@
 	box-shadow: inset 10px 10px 76px rgba(0,0,0,.3);
 }
 
-.container .header img {
+.container .column.header img {
 	width: 200px;
 	position: absolute;
 	left: 50%;
