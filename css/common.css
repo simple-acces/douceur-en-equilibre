@@ -7,12 +7,12 @@
 	margin-right: 5px;
 }
 
-.container a {
+.container .right.column a {
 	color: #BDBDBD;
 	text-decoration: underline;
 }
 
-.container a:hover {
+.container .right.column a:hover {
 	color: black;
 	text-decoration: underline;
 }
