@@ -22,12 +22,14 @@ $(document).ready(function() {
 
     if ($('.menu:not(.fixed)').css('display') === 'none') {
         $('.menu.fixed').css('display', 'block')
+        $('.menu.fixed .column:nth-child(1)').css('display', 'block')
         $('.mobile_menu').fadeOut(0).click(function() {
             $('.mobile_menu').fadeOut(0)
         })
         $('.mobile_menu.current').removeClass('current')
     } else {
         $('.menu.fixed .column:nth-child(1)').css('display', 'none')
+        $('.menu.fixed .mobile_menu').css('display', 'block')
     }
 })
 
