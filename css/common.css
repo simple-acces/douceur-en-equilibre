@@ -81,4 +81,29 @@ article .tags img {
 	display: block;
 }
 
+@media screen and (max-width: 640px) {
+	.container .menu:not(.fixed) {
+		display: none;
+	}
 
+	.container .menu.fixed {
+		background: none;
+		padding: 0 0 0 0 !important;
+	}
+
+	.container .menu.fixed i {
+		float: right;
+	}
+
+	.container .menu.fixed .column {
+		background: white;
+	}
+
+	.container {
+		margin-top: 40px;
+	}
+
+	article h2 {
+		line-height: 1em !important;
+	}
+}
