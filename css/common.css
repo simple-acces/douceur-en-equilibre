@@ -1,7 +1,6 @@
-.container h1, h2, span, p, a, li {
+.container h1, h2 {
 	font-family: 'Open Sans', sans-serif;
 }
-
 .container ul span.list {
 	font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
 	margin-right: 5px;
