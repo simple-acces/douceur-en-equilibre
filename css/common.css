@@ -1,4 +1,4 @@
-.container h1, h2 {
+.container {    font-size: 15px;}.container h1, h2 {
 	font-family: 'Open Sans', sans-serif;
 }
 .container ul span.list {
