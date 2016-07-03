@@ -25,7 +25,7 @@
                 com.css('display', 'block')
 
                 // add a remove to allow admin to remove comment
-                if (window.top.location.host === 'octoboot.soizen.ovh') {
+                if (window.top.location.host.match(/octoboot/)) {
                     com.append('<i class="remove icon" style="position:absolute;top:0;right:0;cursor:pointer"></i>')
                     com.find('i.remove').click(function() {
                         $.get('http://octoboot.soizen.ovh/comments/' + id + '/' + comment.time + '/delete', function() {
